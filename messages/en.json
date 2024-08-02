@@ -1,66 +1,66 @@
 {
-  "navbar": {
-    "about": "About us",
-    "investments": "Investments",
-    "contact": "Get in touch"
-  },
-  "home": {
-    "title": "nextville",
-    "subtitle": "Improving today."
-  },
-  "about": {
-    "title": "About Nextville",
-    "paragraph-one": "Nextville is a privately owned consultancy and management company, with a focus on the digital sector and company growth. We have an entrepreneurial background ourselves. If we engage in a venture, we can invest time and/or our own capital. We have built the operation by starting our own companies, but also by investing in other great entrepreneurs. We help them reach their full potential.",
-    "paragraph-two": "We have a long successful history in the sector Digital Services, AI, and Entertainment. Our strengths often lie in businesses that have a strong focus on creative and technology oriented staff, where company culture and keeping up with the latest is crucial. We have created sustainable growth of 20-30% per annum and received record number of Gazelles and similar awards. Recently we expanded investments into the energy sector as well."
-  },
-  "values": {
-    "title": "At Nextville we",
-    "value-one": "pragmatically focus on simple things like profit and customers",
-    "value-two": "know that people are more important than ideas",
-    "value-three": "prefer a low profile and invest for the long-term",
-    "value-four": "believe sustainability is important for long-term value",
-    "value-five": "only invest using our own funds",
-    "value-six": "do things we enjoy and have fun"
-  },
-  "people": {
-    "title": "This is Nextville",
-    "description": "Nextville is build on a network of independent successful specialist, who can function both as management consultants and as investors. This makes it easier for us to cover a broader range of sectors and deliver the focused skillsets needed.",
-    "person-one": {
-      "name": "Martin Forsling",
-      "role": "Founder & CEO",
-      "quote": "Serial entrepreneur, chairman, and investor. Holds a Master of Science in computer science from the Royal Institute of Technology"
+    "navbar": {
+        "about": "About us",
+        "investments": "Investments",
+        "contact": "Get in touch"
     },
-    "person-two": {
-      "name": "Johan Forsling",
-      "role": "Investor & Board Member",
-      "quote": "Serial entrepreneur, chairman, and investor. Holds a Master of Science in computer science from the Royal Institute of Technology"
+    "home": {
+        "title": "Nextville",
+        "subtitle": "Improving today."
     },
-    "person-three": {
-      "name": "Johan Forsling",
-      "role": "Investor & Board Member",
-      "quote": "Serial entrepreneur, chairman, and investor. Holds a Master of Science in computer science from the Royal Institute of Technology"
+    "about": {
+        "title": "About Nextville",
+        "paragraph-one": "Nextville is a privately owned consultancy and management company, with a focus on the digital sector and company growth. We have an entrepreneurial background ourselves. If we engage in a venture, we can invest time and/or our own capital. We have built the operation by starting our own companies, but also by investing in other great entrepreneurs. We help them reach their full potential.",
+        "paragraph-two": "We have a long successful history in the sector Digital Services, AI, and Entertainment. Our strengths often lie in businesses that have a strong focus on creative and technology oriented staff, where company culture and keeping up with the latest is crucial. We have created sustainable growth of 20-30% per annum and received record number of Gazelles and similar awards. Recently we expanded investments into the energy sector as well."
     },
-    "person-four": {
-      "name": "Johan Forsling",
-      "role": "Investor & Board Member",
-      "quote": "Serial entrepreneur, chairman, and investor. Holds a Master of Science in computer science from the Royal Institute of Technology"
+    "values": {
+        "title": "At Nextville we",
+        "value-one": "pragmatically focus on simple things like profit and customers",
+        "value-two": "know that people are more important than ideas",
+        "value-three": "prefer a low profile and invest for the long-term",
+        "value-four": "believe sustainability is important for long-term value",
+        "value-five": "only invest using our own funds",
+        "value-six": "do things we enjoy and have fun"
+    },
+    "people": {
+        "title": "This is Nextville",
+        "description": "Nextville is build on a network of independent successful specialist, who can function both as management consultants and as investors. This makes it easier for us to cover a broader range of sectors and deliver the focused skillsets needed.",
+        "person-one": {
+            "name": "Martin Forsling",
+            "role": "Founder & CEO",
+            "quote": "Serial entrepreneur, chairman, and investor. Holds a Master of Science in computer science from the Royal Institute of Technology"
+        },
+        "person-two": {
+            "name": "Johan Forsling",
+            "role": "Investor & Board Member",
+            "quote": "Serial entrepreneur, chairman, and investor. Holds a Master of Science in computer science from the Royal Institute of Technology"
+        },
+        "person-three": {
+            "name": "Johan Forsling",
+            "role": "Investor & Board Member",
+            "quote": "Serial entrepreneur, chairman, and investor. Holds a Master of Science in computer science from the Royal Institute of Technology"
+        },
+        "person-four": {
+            "name": "Johan Forsling",
+            "role": "Investor & Board Member",
+            "quote": "Serial entrepreneur, chairman, and investor. Holds a Master of Science in computer science from the Royal Institute of Technology"
+        }
+    },
+    "investments": {
+        "title": "Investments",
+        "header": {
+            "digital": "Digital services, AI & Entertainment",
+            "energy": "Energy Sector"
+        }
+    },
+    "books": {
+        "title": "Some good reads"
+    },
+    "contact": {
+        "title": "Let's get in touch.",
+        "fullName": "Full name",
+        "email": "Email adress",
+        "message": "Message",
+        "button": "Get in touch"
     }
-  },
-  "investments": {
-    "title": "Investments",
-    "header": {
-      "digital": "Digital services, AI & Entertainment",
-      "energy": "Energy Sector"
-    }
-  },
-  "books": {
-    "title": "Some good reads"
-  },
-  "contact": {
-    "title": "Let's get in touch.",
-    "fullName": "Full name",
-    "email": "Email adress",
-    "message": "Message",
-    "button": "Get in touch"
-  }
 }
