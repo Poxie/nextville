@@ -5,9 +5,11 @@ export default function Home() {
 
   return (
     <main>
-      <h1>
-        {t('title')}
-      </h1>
+      <div className="main-width">
+        <h1>
+          {t('title')}
+        </h1>
+      </div>
     </main>
   );
 }

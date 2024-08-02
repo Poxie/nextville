@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 @layer utilities {
-
+  .main-width {
+    @apply w-main max-w-main mx-auto;
+  }
 }
