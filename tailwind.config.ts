@@ -23,6 +23,7 @@ const config: Config = {
         secondary: '#F2F2F2',
         tertiary: '#E7E7E7',
         quaternary: '#C9C9C9',
+        'c-primary': '#FCC383',
       },
       textColor: {
         primary: '#0f172a',
@@ -30,7 +31,7 @@ const config: Config = {
         light: '#fff',
       },
       width: {
-        main: '1100px',
+        main: '1200px',
       },
       maxWidth: {
         main: '90%',
