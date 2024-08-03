@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'divider-gradient': 'linear-gradient(90deg, #FCC38300 0%, #FCC383 50%, #FCC38300 100%)',
+        'divider-light-gradient': 'linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 50%, #FFFFFF00 100%)',
+        'dark-gradient': 'linear-gradient(0deg, #000000 10%, #00000000 100%)',
       },
       backgroundColor: {
         primary: '#fff',
