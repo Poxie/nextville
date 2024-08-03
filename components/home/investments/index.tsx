@@ -7,7 +7,7 @@ export default function Investments() {
     return(
         <section className="py-32 bg-dark text-light">
             <div className="main-width">
-                <h2 className="mb-12 text-5xl font-medium text-center">
+                <h2 className="mb-12 text-5xl text-center">
                     {t('title')}
                 </h2>
                 <InvestmentsList />

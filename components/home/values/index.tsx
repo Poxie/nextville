@@ -11,7 +11,7 @@ export default function Values() {
     }).map(([key, value]) => key);
     return(
         <section className="main-width py-32">
-            <h2 className="text-5xl font-medium text-center">
+            <h2 className="text-5xl text-center">
                 {t('title')}
             </h2>
             <ul className="mt-8 grid md:grid-cols-2 divide-y-[1px] md:divide-y-0 divide-tertiary">

@@ -6,7 +6,7 @@ export default function People() {
     return(
         <section className="py-32 bg-dark text-light">
             <div className="main-width flex flex-col md:flex-row gap-6 md:gap-24">
-                <h2 className="text-5xl font-medium leading-tight">
+                <h2 className="text-5xl leading-tight">
                     {t('title')}
                 </h2>
                 <div className="grid gap-3">

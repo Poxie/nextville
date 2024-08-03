@@ -5,7 +5,7 @@ export default function About() {
 
     return(
         <section className="main-width py-32 flex flex-col md:flex-row gap-8 md:gap-20">
-            <h2 className="text-5xl font-medium leading-tight">
+            <h2 className="text-5xl leading-tight">
                 {t('title')}
             </h2>
             <div>
