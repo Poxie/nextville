@@ -8,6 +8,7 @@ export default function InvestmentsList() {
                 <InvestmenutGroup 
                     title={key}
                     projects={value}
+                    key={key}
                 />
             ))}
         </div>
