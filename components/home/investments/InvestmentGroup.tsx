@@ -16,7 +16,7 @@ export default function InvestmenutGroup({ title, projects }: {
             </span>
             {/* Change this border to dashed later */}
             <div className={twMerge(
-                "[--item-gap:.75rem] p-5 flex flex-wrap gap-[--item-gap] rounded-md border-[1px] border-white",
+                "[--item-gap:.75rem] border-image p-5 flex flex-wrap gap-[--item-gap] rounded-md",
             )}>
                 {projects.map(project => {
                     const rest = projects.length % 3;

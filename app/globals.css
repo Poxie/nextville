@@ -6,4 +6,13 @@
   .main-width {
     @apply w-main max-w-main mx-auto;
   }
+
+  .border-image {
+    --border-color: #fff;
+    --border-size: 27px;
+    background-image: repeating-linear-gradient(to right, var(--border-color) 0%, var(--border-color) 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, var(--border-color) 0%, var(--border-color) 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, var(--border-color) 0%, var(--border-color) 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, var(--border-color) 0%, var(--border-color) 50%, transparent 50%, transparent 100%);
+    background-position: left top, left bottom, left top, right top;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: var(--border-size) 1px, var(--border-size) 1px, 1px var(--border-size), 1px var(--border-size);
+  }
 }
