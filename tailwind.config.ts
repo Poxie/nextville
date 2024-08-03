@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'divider-gradient': 'linear-gradient(90deg, #FCC38300 0%, #FCC383 50%, #FCC38300 100%)',
+      },
       backgroundColor: {
         primary: '#fff',
         secondary: '#F2F2F2',
