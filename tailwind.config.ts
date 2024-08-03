@@ -15,6 +15,12 @@ const config: Config = {
         quaternary: '#C9C9C9',
         dark: '#000',
       },
+      borderColor: {
+        primary: '#fff',
+        secondary: '#F2F2F2',
+        tertiary: '#E7E7E7',
+        quaternary: '#C9C9C9',
+      },
       textColor: {
         primary: '#0f172a',
         secondary: '#475569',
