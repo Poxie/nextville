@@ -8,6 +8,7 @@ const ConfigContext = React.createContext<null | {
     config: Config | null;
     updateConfig: (prop: string, value: any) => void;
     saveConfig: () => void;
+    updating: boolean;
 }>(null);
 
 export const useConfig = () => {
@@ -22,6 +23,7 @@ export default function ConfigProvider({ children }: {
     children: React.ReactNode;
 }) {
     const [config, setConfig] = useState<null | Config>(null);
+    const [updating, setUpdating] = useState(false);
 
     useEffect(() => {
         getConfig().then(setConfig);
@@ -47,14 +49,18 @@ export default function ConfigProvider({ children }: {
     }
     const saveConfig = async () => {
         if(!config) return;
+
+        setUpdating(true);
         const newConfig = await updateConfigFile(config);
         setConfig(newConfig);
+        setUpdating(false);
     }
 
     const value = {
         config,
         updateConfig,
         saveConfig,
+        updating,
     }
     return(
         <ConfigContext.Provider value={value}>
