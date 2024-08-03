@@ -24,7 +24,8 @@
   },
   "people": {
     "title": "This is Nextville",
-    "description": "Nextville is build on a network of independent successful specialist, who can function both as management consultants and as investors. This makes it easier for us to cover a broader range of sectors and deliver the focused skillsets needed.",
+    "paragraph-one": "Nextville is build on a network of independent successful specialist, who function both as management consultants and as investors. This makes it easier for us to cover a broader range of sectors and deliver the focused skillsets needed.",
+    "paragraph-two": "'We are engaged on a personal level in our partner companies‘ says Martin Forsling, CEO of Nextville.",
     "person-one": {
       "name": "Martin Forsling",
       "role": "Founder & CEO",

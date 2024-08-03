@@ -1,5 +1,6 @@
 import About from "./about";
 import Hero from "./hero";
+import People from "./people";
 import Values from "./values";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <About />
       <Values />
+      <People />
     </main>
   )
 }
