@@ -24,8 +24,9 @@ export default function InvestmenutGroup({ title, projects }: {
                         <InvestmentProject 
                             project={project}
                             className={twMerge(
+                                "min-w-full md:min-w-[calc(50%-var(--item-gap))]",
                                 rest === 1 && "min-w-[calc(50%-var(--item-gap))]",
-                                rest !== 1 && "min-w-[calc(33%-var(--item-gap))]",
+                                rest !== 1 && "lg:min-w-[calc(33%-var(--item-gap))]",
                             )}
                             key={project.title}
                         />
