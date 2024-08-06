@@ -13,7 +13,7 @@ export default function About() {
                     <p className="text-lg text-secondary">
                         {t('paragraph-one')}
                     </p>
-                    <div className="bg-gradient-to-r from-gray-400 to-gray-200 my-8 h-[1px] w-full" />
+                    <div className="my-8 w-full h-[1px] bg-divider-gradient" />
                     <p className="text-lg text-secondary">
                         {t('paragraph-two')}
                     </p>
