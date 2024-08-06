@@ -1,4 +1,5 @@
 "use client";
+import { MdAlternateEmail, MdPerson } from "react-icons/md";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import Button from "@/components/ui/button";
@@ -89,11 +90,13 @@ export default function ContactForm() {
             )}
             <div className="flex flex-col md:flex-row gap-2">
                 <Input 
+                    icon={<MdPerson size={20} className="text-secondary" />}
                     onChange={text => updateInfo('name', text)}
                     placeholder="Full name"
                     value={info.name}
                 />
                 <Input 
+                    icon={<MdAlternateEmail size={20} className="text-secondary" />}
                     onChange={text => updateInfo('email', text)}
                     placeholder="Email address"
                     value={info.email}
