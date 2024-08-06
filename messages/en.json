@@ -1,8 +1,12 @@
 {
   "navbar": {
-    "about": "About us",
-    "investments": "Investments",
-    "contact": "Get in touch"
+    "aboutLabel": "About us",
+    "aboutHref": "about",
+    "investmentsLabel": "Investments",
+    "investmentsHref": "investments",
+    "contactLabel": "Contact",
+    "contactHref": "contact"
+  
   },
   "home": {
     "title": "Nextville",
