@@ -4,7 +4,7 @@ export default function About() {
     const t = useTranslations('about');
 
     return(
-        <section className="main-width py-32 flex flex-col md:flex-row gap-8 md:gap-20">
+        <section id="about" className="main-width py-32 flex flex-col md:flex-row gap-8 md:gap-20">
             <h2 className="text-5xl leading-tight">
                 {t('title')}
             </h2>
