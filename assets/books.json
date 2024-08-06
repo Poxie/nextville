@@ -1,0 +1,65 @@
+[
+    {
+        "image": "book1.png",
+        "title": "Not the End of the World",
+        "author": "Hannah Ritchie",
+        "year": "2024",
+        "theme": "On our environment"
+    },
+    {
+        "image": "book2.png",
+        "title": "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress",
+        "author": "Steven Pinker",
+        "year": "2019",
+        "theme": "On human progress"
+    },
+    {
+        "image": "book3.png",
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Harari",
+        "year": "2015",
+        "theme": "On humankind"
+    },
+    {
+        "image": "book4.png",
+        "title": "The Capitalist Manifesto: Why the Global Free Market Will Save the World",
+        "author": "Johan Norberg",
+        "year": "2023",
+        "theme": "On macro economics"
+    },
+    {
+        "image": "book5.png",
+        "title": "The Coddling of the American Mind",
+        "author": "Greg Lukianoff",
+        "year": "2019",
+        "theme": "On politics"
+    },
+    {
+        "image": "book6.png",
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "year": "2018",
+        "theme": "On how small changes can have a large effect"
+    },
+    {
+        "image": "book7.png",
+        "title": "Predictably Irrational",
+        "author": "Daniel Ariely",
+        "year": "2008",
+        "theme": "On behavioural economics"
+    },
+    {
+        "image": "book8.png",
+        "title": "The Cold Start Problem",
+        "author": "Andrew Chen",
+        "year": "2021",
+        "theme": "On network effects"
+    },
+    {
+        "image": "book9.png",
+        "title": "Stumbling on Happiness",
+        "author": "Dan Gilbert",
+        "year": "2007",
+        "theme": "On happiness"
+    }
+]
