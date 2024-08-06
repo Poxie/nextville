@@ -9,7 +9,7 @@ export default function Button({ children, className, onClick, disabled, type='p
 }) {
     className = twMerge(
         'px-4 py-3 font-medium rounded-md border-[1px] transition-colors duration-300',
-        type === 'primary' && 'bg-c-primary text-primary hover:bg-c-primary/90',
+        type === 'primary' && 'bg-c-primary text-primary hover:bg-c-primary/70',
         type === 'secondary' && 'text-light border-dark hover:bg-dark hover:text-light',
         className,
     )

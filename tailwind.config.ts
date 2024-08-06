@@ -19,12 +19,15 @@ const config: Config = {
         tertiary: '#E7E7E7',
         quaternary: '#C9C9C9',
         dark: '#000',
+        success: '#00FF00',
+        'c-primary': '#FCC383',
       },
       borderColor: {
         primary: '#fff',
         secondary: '#F2F2F2',
         tertiary: '#E7E7E7',
         quaternary: '#C9C9C9',
+        success: '#00FF00',
         'c-primary': '#FCC383',
       },
       textColor: {

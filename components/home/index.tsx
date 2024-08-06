@@ -1,4 +1,5 @@
 import About from "./about";
+import Contact from "./contact";
 import Hero from "./hero";
 import Investments from "./investments";
 import People from "./people";
@@ -13,6 +14,7 @@ export default function Home() {
       <People />
       <div className="absolute left-2/4 -translate-x-2/4 w-main max-w-main h-[1px] bg-divider-light-gradient" />
       <Investments />
+      <Contact />
     </main>
   )
 }
