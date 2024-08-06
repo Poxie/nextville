@@ -5,11 +5,11 @@ export default function Footer() {
     return(
         <footer className="py-12 bg-dark text-light">
             <div className="main-width flex flex-col md:flex-row justify-between gap-8">
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-4">
                     <Image 
                         src={logo}
-                        width={100}
-                        height={42}
+                        width={150}
+                        height={80}
                         alt="Nextville logo"
                     />
                     <span>
