@@ -21,7 +21,7 @@ export default function Hero() {
                 </span>
                 
             </div>
-            <WaveIllustration className='absolute bottom-0'/>
+            {/* <WaveIllustration className='absolute bottom-0'/> */}
     
         </div>
     )
