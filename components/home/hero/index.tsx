@@ -2,6 +2,7 @@
 import { useTranslations } from "next-intl"
 import HeroBackground from "./HeroBackground";
 import { useRef } from "react";
+import WaveIllustration from '@/components/ui/wave-illustration';
 
 export default function Hero() {
     const t = useTranslations('home');
@@ -18,7 +19,10 @@ export default function Hero() {
                 <span className="text-4xl text-secondary">
                     {t('subtitle')}
                 </span>
+                
             </div>
+            <WaveIllustration className='absolute bottom-0'/>
+    
         </div>
     )
 }
