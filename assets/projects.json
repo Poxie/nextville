@@ -2,7 +2,10 @@
     "digital": [
         { "title": "Framna", "href": "https://framna.com", "image": "framna.png" },
         { "title": "Stock Republic", "href": "https://www.stockrepublic.io", "image": "stockrepublic.png" },
-        { "title": "Bontouch", "href": "https://bontouch.com", "image": "bontouch.png" }
+        { "title": "Bontouch", "href": "https://bontouch.com", "image": "bontouch.png" },
+        { "title": "Valtech", "href": "https://www.valtech.com", "image": "valtech.png" },
+        { "title": "Synergenix", "href": "https://www.valtech.com", "image": "synergenix.png" }
+
     ],
     "energy": [
         { "title": "Novatron Fusion", "href": "https://www.novatronfusion.com", "image": "novatron.png" },
@@ -11,6 +14,6 @@
     "financial": [
         { "title": "BMC Global Select and Small Cap Select", "href": "https://www.bmcapital.se/en", "image": "bmc.png" },
         { "title": "Ymer alt credit fund III", "href": "https://ymersc.com", "image": "ymer.png" },
-        { "title": "Excalibur", "href": "https://excaliburfonder.se/en", "image": "excalibur.png" }
+        { "title": "Excalibur", "href": "https://excaliburfonder.se", "image": "excalibur.png" }
     ]
 }
