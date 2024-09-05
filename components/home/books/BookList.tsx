@@ -13,6 +13,7 @@ export default function BookList() {
                         width={96}
                         height={149}
                         src={`/imgs/books/${book.image}`}
+                        className='aspect-[9/12]'
                         alt=""
                     />
                     <div className="p-4 flex flex-col justify-between">
