@@ -13,7 +13,7 @@ export default function About() {
     useAnimateIntoView(p2, { siblingRef: p1, delay: 600 });
 
     return (
-         <div className="bg-gradient-to-b from-[#FCC383] from-10% via-white via-25% to-white to-90%">
+         <div className="bg-gradient-to-b from-black from-1% via-[#FCC383] via-5% to-white to-30%">
             <section id="about" className="main-width py-32 flex flex-col md:flex-row gap-8 md:gap-20">
                 <h2 className="text-5xl leading-tight" ref={header} style={DEFAULT_INITIAL_STATE}>
                     {t('title')}
