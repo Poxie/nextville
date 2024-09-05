@@ -6,7 +6,30 @@ export default function InvestmentProject({ project, className }: {
     project: Project;
     className?: string;
 }) {
+    const props = {
+        className: twMerge(
+            "group relative flex-1 aspect-square rounded-md overflow-hidden",
+            className,
+        ),
+    }
+    const children = (
+        <>
+        <Image 
+            width={500}
+            height={300}
+            src={`/imgs/investments/${project.image}`}
+            alt={project.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+        <div className="p-4 bg-dark-gradient absolute bottom-0 w-full left-0 md:opacity-0 md:translate-y-16 group-hover:translate-y-0 group-hover:opacity-100 transition-[transform,opacity] duration-500 ease-in-out">
+            <span className="text-xl">
+                {project.title}
+            </span>
+        </div>
+        </>
+    )
     return(
+<<<<<<< HEAD
         <a 
             target="_blank"
             href={project.href}
@@ -26,7 +49,20 @@ export default function InvestmentProject({ project, className }: {
                 <span className="text-xl">
                     {project.title}
                 </span>
+=======
+        project.href ? (
+            <a
+                target="_blank"
+                href={project.href}
+                {...props}
+            >
+                {children}
+            </a>
+        ) : (
+            <div {...props}>
+                {children}
+>>>>>>> 9a01f7c (Add rest of investments)
             </div>
-        </a>
+        )
     )
 }
