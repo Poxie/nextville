@@ -14,24 +14,15 @@ export default function InvestmenutGroup({ title, projects }: {
             <span className="mb-4 pl-5 block">
                 {t(`header.${title}`)}
             </span>
-            {/* Change this border to dashed later */}
             <div className={twMerge(
-                "[--item-gap:.75rem] border-image p-5 flex flex-wrap gap-[--item-gap] rounded-md",
+                "border-image p-5 grid grid-cols-4 gap-4 rounded-md",
             )}>
-                {projects.map(project => {
-                    const rest = projects.length % 3;
-                    return(
-                        <InvestmentProject 
-                            project={project}
-                            className={twMerge(
-                                "min-w-full md:min-w-[calc(50%-var(--item-gap))]",
-                                rest === 1 && "min-w-[calc(50%-var(--item-gap))]",
-                                rest !== 1 && "lg:min-w-[calc(33%-var(--item-gap))]",
-                            )}
-                            key={project.title}
-                        />
-                    )
-                })}
+                {projects.map(project => (
+                    <InvestmentProject 
+                        project={project}
+                        key={project.title}
+                    />
+                ))}
             </div>
         </div>
     )
