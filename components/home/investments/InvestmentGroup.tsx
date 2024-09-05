@@ -11,11 +11,14 @@ export default function InvestmenutGroup({ title, projects }: {
 
     return(
         <div>
-            <span className="mb-4 pl-5 block">
-                {t(`header.${title}`)}
-            </span>
+            <div className="my-4 flex items-center gap-6">
+                <span className="block">
+                    {t(`header.${title}`)}
+                </span>
+                <div className="flex-1 h-[1px] bg-white/40" />
+            </div>
             <div className={twMerge(
-                "border-image p-5 grid grid-cols-4 gap-4 rounded-md",
+                "grid grid-cols-4 gap-4 rounded-md",
             )}>
                 {projects.map(project => (
                     <InvestmentProject 

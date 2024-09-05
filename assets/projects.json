@@ -2,15 +2,9 @@
     "digital": [
         { "title": "Framna", "href": "https://framna.com", "image": "framna.png" },
         { "title": "Stock Republic", "href": "https://www.stockrepublic.io", "image": "stockrepublic.png" },
-        { "title": "Bontouch", "href": "https://bontouch.com", "image": "bontouch.png" },
-<<<<<<< HEAD
-        { "title": "Valtech", "href": "https://www.valtech.com", "image": "valtech.png" },
-        { "title": "Synergenix", "href": "https://www.valtech.com", "image": "synergenix.png" }
-
-=======
-        { "title": "Valtech", "href": "https://valtech.com", "image": "valtech.png" },
-        { "title": "Synergenix Interactive", "href": "", "image": "synergenix.png" }
->>>>>>> 9a01f7c (Add rest of investments)
+        { "title": "Bontouch", "href": "https://bontouch.com", "image": "bontouch.png", "exit": true },
+        { "title": "Valtech", "href": "https://valtech.com", "image": "valtech.png", "exit": true },
+        { "title": "Synergenix Interactive", "href": "", "image": "synergenix.png", "exit": true }
     ],
     "energy": [
         { "title": "Novatron Fusion", "href": "https://www.novatronfusion.com", "image": "novatron.png" },
