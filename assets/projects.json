@@ -5,6 +5,9 @@
         { "title": "Bontouch", "href": "https://bontouch.com", "image": "bontouch.png", "exit": true },
         { "title": "Valtech", "href": "https://valtech.com", "image": "valtech.png", "exit": true },
         { "title": "Synergenix Interactive", "href": "", "image": "synergenix.png", "exit": true }
+        { "title": "Bontouch", "href": "https://bontouch.com", "image": "bontouch.png", "exit": true },
+        { "title": "Valtech", "href": "https://valtech.com", "image": "valtech.png", "exit": true },
+        { "title": "Synergenix Interactive", "href": "", "image": "synergenix.png", "exit": true }
     ],
     "energy": [
         { "title": "Novatron Fusion", "href": "https://www.novatronfusion.com", "image": "novatron.png" },
