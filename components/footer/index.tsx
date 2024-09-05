@@ -3,7 +3,7 @@ import logo from "@/assets/imgs/logo.png";
 
 export default function Footer() {
     return(
-        <footer className="py-12 bg-dark text-light">
+        <footer className="py-12  text-light bg-gradient-to-t from-black via-black to-[#FCC383] from-80% w-full">
             <div className="main-width flex flex-col md:flex-row justify-between gap-8">
                 <div className="flex flex-col gap-4">
                     <Image 
@@ -21,10 +21,10 @@ export default function Footer() {
                         Nextville AB 
                     </span>
                     <span>
-                        Östgötagatan 12,
+                        Östgötagatan 12
                     </span>
                     <span>
-                        Embassy house,
+                        Embassy house
                     </span>
                     <span>
                         Stockholm, Sweden
