@@ -19,7 +19,7 @@ export default function InvestmentProject({ project, className }: {
             height={300}
             src={`/imgs/investments/${project.image}`}
             alt={project.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
         />
         {project.exit && (
             <div className="px-3.5 py-1 absolute top-2 right-2 text-sm bg-white text-primary font-bold rounded-full shadow-lg pointer-events-none">
