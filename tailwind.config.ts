@@ -35,6 +35,7 @@ const config: Config = {
         primary: '#0f172a',
         secondary: '#475569',
         light: '#fff',
+        'light-secondary': '#F2F2F2',
       },
       width: {
         main: '1200px',
