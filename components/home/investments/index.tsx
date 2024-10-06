@@ -5,7 +5,8 @@ export default function Investments() {
     const t = useTranslations('investments');
 
     return(
-        <section id="investments" className="py-32 bg-dark text-light">
+        <div className="bg-gradient-to-t from-white from-1% to-black to-[20px]">
+        <section id="investments" className="py-32 text-light">
             <div className="main-width">
                 <h2 className="mb-12 text-5xl text-center">
                     {t('title')}
@@ -13,5 +14,6 @@ export default function Investments() {
                 <InvestmentsList />
             </div>
         </section>
+        </div>
     )
 }

@@ -11,6 +11,7 @@ export default function Home() {
     <main>
       <Hero />
       <About />
+      <div className="absolute left-2/4 -translate-x-2/4 w-main max-w-main h-[1px] bg-divider-dark-gradient opacity-20" />
       <Values />
       <People />
       <div className="absolute left-2/4 -translate-x-2/4 w-main max-w-main h-[1px] bg-divider-light-gradient" />
