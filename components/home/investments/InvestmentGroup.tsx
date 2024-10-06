@@ -18,7 +18,7 @@ export default function InvestmenutGroup({ title, projects }: {
                 <div className="flex-1 h-[1px] bg-white/40" />
             </div>
             <div className={twMerge(
-                "grid grid-cols-4 gap-4 rounded-md",
+                "grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 rounded-md",
             )}>
                 {projects.map(project => (
                     <InvestmentProject 
