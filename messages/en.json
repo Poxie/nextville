@@ -19,12 +19,12 @@
   },
   "values": {
     "title": "At Nextville we",
-    "value-one": "pragmatically focus on simple things like profit and customers",
-    "value-two": "know that people are more important than ideas",
-    "value-three": "prefer a low profile and invest for the long-term",
-    "value-four": "believe sustainability is important for long-term value",
-    "value-five": "only invest using our own funds",
-    "value-six": "do things we enjoy and have fun"
+    "value-1": "pragmatically focus on simple things like profit and customers",
+    "value-2": "know that people are more important than ideas",
+    "value-3": "prefer a low profile and invest for the long-term",
+    "value-4": "believe sustainability is important for long-term value",
+    "value-5": "only invest using our own funds",
+    "value-6": "do things we enjoy and have fun"
   },
   "people": {
     "title": "This is Nextville",
